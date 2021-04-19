@@ -7,13 +7,13 @@ const Footer = () => {
         <div className="footer">
             <div className="row">
                 <div className="col-sm-4">
-                    <img src={github} alt=""/>
+                    <a href="https://github.com/MaxNaitor" target="_blank"><img src={github} alt="" /></a>
                 </div>
                 <div className="col-sm-4">
-                    <img src={linkedin} alt=""/>
+                    <a href="https://www.linkedin.com/in/tiziano-massa-061151158/" target="_blank"> <img src={linkedin} alt="" /> </a>
                 </div>
                 <div className="col-sm-4">
-                    <img src={instagram} alt=""/>
+                    <a href="https://www.instagram.com/ti_pics/" target="_blank"><img src={instagram} alt="" /> </a>
                 </div>
             </div>
         </div>

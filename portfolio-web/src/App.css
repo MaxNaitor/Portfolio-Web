@@ -51,8 +51,24 @@
 .header > .row {
   background-color: darkcyan; 
   height: 10vh; /* view-height: 10vh rappresenta il 10% dell'altezza del div in cui è inserito */
-  /* border: 4px thick; */
 }
+
+/* -------------------------- FOOTER ------------------------------*/
+.footer > .row {
+  background-color: darkcyan; 
+  height: 7vh;
+  margin-top: 100%;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer img {
+  height: 5vh;
+  margin-top: 1%;
+}
+
+
 
 /* ------------------------- HOMEPAGE --------------------------- */
 
@@ -62,12 +78,12 @@
 
 .colRight {
   border-left: 2px solid black;
-  height: 85vh;
+  height: 83vh;
 }
 
 .colLeft {
   border-right: 2px solid black;
-  height: 85vh;
+  height: 83vh;
 }
 
 /* ------------------------- HOME CARD -------------------------- */
@@ -76,8 +92,19 @@
   border: thick solid teal;
   margin-top: 10%;
   margin-bottom: 10%;
-  margin: 5%;  
+  /* margin: 3%;   */
+
   height: 70vh
+}
+
+.right {
+margin-left: 2%;
+margin-top: 5%;
+}
+
+.left {
+  margin-right: 2%;
+  margin-top: 5%;
 }
 
 .homecard h1 {

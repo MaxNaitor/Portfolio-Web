@@ -38,10 +38,11 @@
 }
 
 .corpoComponente {
+  /* background-color: thistle; */
+  margin-top: 4%;
   position: fixed;
   width: 100%;
-  height: 85%;
-  /* background-color: dimgray; */
+  height: 93%;
   background-size: auto 110%;
   background-repeat: no-repeat;
   background-position: right;
@@ -53,24 +54,35 @@
   position: fixed;
   top: 0px;
   width: 100%;
-  z-index: 9999;
 }
 
 .header h1 {
-  margin: auto;
+  margin-top: 1%;
   color: white;
   font-family: standard;
   font-size: 4em;
 }
 
+.header h1:hover {
+  cursor: pointer;
+}
+
+.header h5 {
+  margin-top: 7%;
+  color: white;
+  font-family: standard;
+  font-size: 2em;
+  
+}
+
 .header > .row {
-  background-color: darkcyan; 
+  background-color: teal ;
   height: 10vh; /* view-height: 10vh rappresenta il 10% dell'altezza del div in cui è inserito */
 }
 
 /* -------------------------- FOOTER ------------------------------*/
 .footer > .row {
-  background-color: darkcyan; 
+  background-color: teal;
   height: 7vh;
   margin-top: 100%;
   position: fixed;
@@ -90,9 +102,15 @@
 .homepage {
  height: 85vh;
  width: 100%;
- /* margin: 5%; */
  position: fixed;
- margin-top: 4%;
+ /* margin-top: 4%; */
+}
+
+.schedahome {
+  margin-left: 4%;
+  margin-top: 4%;
+  background-color: teal;
+  height: 81vh;
 }
 
 /* .colRight {
@@ -143,8 +161,19 @@ margin-top: 5%;
   margin-bottom: 9%;
 }
 
+/* ----------------------------------------- BUTTONS ---------------------------------*/
+
 .btn-info {
   background-color: teal;
+  width: 70%;
+  height: 10%;
+  margin-bottom: 1%;
+  font-size: 2em;
+}
+
+.btn-info-inverted {
+  background-color: white;
+  color: teal;
   width: 70%;
   height: 10%;
   margin-bottom: 1%;
@@ -157,6 +186,16 @@ margin-top: 5%;
   border: transparent;
 }
 
+.btn-info-inverted:hover {
+  background-color: rgb(248, 179, 179);
+  color: teal;
+  border: transparent;
+}
+
+.pulsantiera {
+  margin-top: 5%;
+}
+
 .tech {
   font-family: tech;
   /* color: white; */
@@ -166,6 +205,19 @@ margin-top: 5%;
   font-family: fotografia;
   /* color: white; */
   font-size: 2em;
+}
+
+/* ------------------------- WEB HOME ----------------------------- */
+
+.webhome {
+  top: 10%;
+}
+
+/* ------------------------- LAYOUT ------------------------------- */
+
+.fotoprofilo {
+  height: 25vh;
+  margin-top: 5%;
 }
 
 /* ------------------------- FONTS -------------------------------- */
@@ -184,6 +236,10 @@ margin-top: 5%;
   font-family: standard;
   src: url(./fonts//DanielleHarrisDemoRegular-BWpK5.otf);
 }
+
+a:hover {
+  color: white;
+} 
 
 
 

@@ -1,10 +1,22 @@
-
+import {useHistory} from "react-router-dom"
 
 const Header = () => {
+
+    let history = useHistory();
+
     return (
         <div className="header">
             <div className="row">
-                <h1>Tiziano Massa</h1>
+                <div className="col-md-3">
+                   <a href="/development"> <h5>Web Development</h5> </a>
+                </div>
+                <div className="col-md-6" onClick={() => history.push("/homepage")}>
+                    <h1>Tiziano Massa</h1>
+                </div>
+                <div className="col-md-3">
+                   <a href="/photography"><h5>Fotografia</h5> </a> 
+                </div>
+
             </div>
         </div>
     )

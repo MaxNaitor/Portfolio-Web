@@ -1,5 +1,4 @@
 import HomeCard from "./HomeCard"
-import {useHistory} from "react-router-dom"
 
 const Homepage = () => {
     return (

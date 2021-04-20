@@ -88,9 +88,17 @@
   /* background-color: rgb(248, 179, 179); */
   height: 75vh;
   margin-left: 4%;
-  margin-top: 3%;
+  margin-top: 2%;
   margin-right: 4%;
   /* margin: 4% */
+}
+
+.contenuto h1 {
+  font-size: 4vh;
+}
+
+.contenuto h4 {
+  font-size: 3vh;
 }
 
 /* .schedahome {
@@ -204,6 +212,35 @@ margin-top: 5%;
 .fotoprofilo {
   height: 25vh;
   margin-top: 5%;
+}
+
+.form-control {
+  font-size: 2vh;
+}
+/* ------------------------- CONTATTAMI --------------------------- */
+
+.contattami > .form-group > .form-control {
+  width: 50%;
+  margin-left: 25%;
+  font-size: 2vh;
+}
+
+.contattami > button {
+  width: 50%;
+  font-size: 3vh;
+  left: 25%;
+  bottom: 5%;
+  position: absolute;
+  padding: 0.7%;
+}
+
+.contattami {
+  /* bottom: 5%; */
+  top: 10%;
+  position: absolute;
+  width:68.3vw;
+  height: 60vh;
+  font-family: standard;
 }
 
 /* ------------------------- FONTS -------------------------------- */

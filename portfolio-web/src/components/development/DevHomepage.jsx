@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import foto from '../../img/ioPH.jfif'
+import Contenuto from '../utils/Contenuto'
 import Pulsantiera from '../utils/Pulsantiera'
 
 const DevHomepage = () => {
@@ -17,7 +18,7 @@ const DevHomepage = () => {
                         </div>
                     </div>
                     <div className="col-md-9">
-                        <h1>{prova}</h1>
+                        <Contenuto mostra={prova}/>
                     </div>
                 </div>
             </div>

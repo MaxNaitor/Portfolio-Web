@@ -17,8 +17,8 @@ const Pulsantiera = ({ selezione, tipo }) => {
                         <button className="btn btn-info-inverted fotografia pulsantiera" onClick={() => selezione('chi sono')}>Chi Sono</button>
                         <button className="btn btn-info-inverted fotografia pulsantiera" onClick={() => selezione('ritratti')}>Ritratti</button>
                         <button className="btn btn-info-inverted fotografia pulsantiera" onClick={() => selezione('travel')}>Travel</button>
-                        <button className="btn btn-info-inverted fotografia pulsantiera" onClick={() => selezione('contattami')}>Contattami</button>
                         <button className="btn btn-info-inverted fotografia pulsantiera" onClick={() => selezione('attrezzatura')}>Attrezzatura</button>
+                        <button className="btn btn-info-inverted fotografia pulsantiera" onClick={() => selezione('contattami')}>Contattami</button>
                     </>
                 }
 

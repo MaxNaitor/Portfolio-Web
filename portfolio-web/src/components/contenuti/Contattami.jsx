@@ -1,4 +1,7 @@
 import { useState } from "react";
+import emailjs from 'emailjs-com';
+
+
 
 const Contattami = () => {
 
@@ -8,6 +11,7 @@ const Contattami = () => {
 
     const inviaMail = (event) => {
         console.log('email ' + email + ' psw ' + password + ' msg ' + msg)
+        emailjs.send("gmail_service", templateID, templateParams, userID);
         event.preventDefault();
     }
 

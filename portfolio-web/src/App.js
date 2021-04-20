@@ -5,6 +5,8 @@ import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import DevHomepage from './components/development/DevHomepage';
 import PhHomepage from './components/photography/PhHomepage';
+import { init } from 'emailjs-com';
+init("user_OuiiPTBmuFQviQVgy1BlE");
 
 function App() {
   return (

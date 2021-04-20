@@ -2,7 +2,7 @@ import { useState } from 'react'
 import foto from '../../img/ioPH.jfif'
 import Pulsantiera from '../utils/Pulsantiera'
 
-const DevHomepage = () => {
+const PhHomepage = () => {
 
     const [prova, setProva] = useState('prova')
 
@@ -13,7 +13,7 @@ const DevHomepage = () => {
                     <div className="col-md-3">
                         <div className="schedahome rounded">
                             <img src={foto} alt="" className="fotoprofilo rounded-circle" />
-                            <Pulsantiera selezione={setProva} tipo="development" />
+                            <Pulsantiera selezione={setProva} tipo="fotografia" />
                         </div>
                     </div>
                     <div className="col-md-9">
@@ -25,4 +25,4 @@ const DevHomepage = () => {
     )
 }
 
-export default DevHomepage
+export default PhHomepage;

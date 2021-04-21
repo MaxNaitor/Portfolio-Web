@@ -33,11 +33,10 @@
 }
 
 .header h5 {
-  margin-top: 7%;
+  margin-top: 3vh;
   color: white;
   font-family: standard;
   font-size: 5vh;
-  
 }
 
 .header > .row {
@@ -75,20 +74,20 @@
 
 .schedahome {
   margin-left: 4%;
-  margin-top: 4%;
+  margin-top: 6%;
   background-color: teal;
-  height: 81vh;
+  height: 78.5vh;
 }
 
 
 /* ------------------------- CONTENUTO -------------------------- */
 
 .contenuto {
-  border: 0.4em solid teal;
+  border: 0.8vh solid teal;
   /* background-color: rgb(248, 179, 179); */
   height: 75vh;
   margin-left: 4%;
-  margin-top: 2%;
+  margin-top: 3%;
   margin-right: 4%;
   /* margin: 4% */
 }
@@ -101,12 +100,6 @@
   font-size: 3vh;
 }
 
-/* .schedahome {
-  margin-left: 4%;
-  margin-top: 4%;
-  background-color: teal;
-  height: 81vh;
-} */
 
 /* ------------------------- HOME CARD -------------------------- */
 
@@ -241,6 +234,27 @@ margin-top: 5%;
   width:68.3vw;
   height: 60vh;
   font-family: standard;
+}
+
+
+/* ------------------------- CV ----------------------------------- */
+
+.cv {
+margin-top: 10%;
+background-color: red;
+}
+
+.cv a {
+  color: white;
+  background-color: teal;
+  border-radius: 5%;
+  font-family: standard;
+  font-size: 4vh;
+  padding: 1%;
+  left: 71vh;
+  bottom: 7%;
+  position: absolute;
+  align-self: center;
 }
 
 /* ------------------------- FONTS -------------------------------- */

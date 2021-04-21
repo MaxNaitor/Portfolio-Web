@@ -77,7 +77,6 @@ const Contattami = () => {
                 </div>
                 <button className="btn btn-info" style={{ marginTop: '3%' }}>Invia</button>
             </div>
-
         </form>
     )
 }

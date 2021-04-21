@@ -263,6 +263,27 @@ canvas {
   width: 138vh !important;
 }
 
+/* ------------------------- CHI SONO ---------------------------- */
+
+.chi-sono {
+  font-family: standard;
+  height: 73.5vh;
+  padding: 3%;
+}
+
+.chi-sono h1 {
+  font-size: 1.5vw;
+  text-align: left;
+}
+
+.paragrafo {
+  margin-top: 2vh;
+}
+
+.chi-sono b {
+  color: teal;
+}
+
 /* ------------------------- FONTS -------------------------------- */
 
 @font-face {

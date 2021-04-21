@@ -124,7 +124,7 @@ margin-top: 5%;
   font-size: 3vw; /* em prende il font dell'elemento e lo moltiplica per il numero posto prima*/
   color: white;
   background-color: teal;
-  width: 101%;
+  width: 100%;
 }
 
 .homecard button {
@@ -151,8 +151,6 @@ margin-top: 5%;
   background-color: teal;
   width: 70%;
   height: 10%;
-  /* margin-bottom: 1%; */
-  /* font-size: 4vh; */
 }
 
 .btn-info-inverted {
@@ -228,7 +226,6 @@ margin-top: 5%;
 }
 
 .contattami {
-  /* bottom: 5%; */
   top: 10%;
   position: absolute;
   width:68.3vw;
@@ -240,8 +237,7 @@ margin-top: 5%;
 /* ------------------------- CV ----------------------------------- */
 
 .cv {
-margin-top: 10%;
-background-color: red;
+height: 73.5vh;
 }
 
 .cv a {
@@ -251,10 +247,20 @@ background-color: red;
   font-family: standard;
   font-size: 4vh;
   padding: 1%;
-  left: 71vh;
+  left: 43%;
   bottom: 7%;
   position: absolute;
   align-self: center;
+}
+
+.pdf {
+  height: 73.5vh;
+  overflow-y: scroll;
+}
+
+canvas {
+  height: 200vh !important;
+  width: 138vh !important;
 }
 
 /* ------------------------- FONTS -------------------------------- */

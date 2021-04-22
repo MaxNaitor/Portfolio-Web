@@ -247,10 +247,17 @@ height: 73.5vh;
   font-family: standard;
   font-size: 4vh;
   padding: 1%;
-  left: 43%;
-  bottom: 7%;
+  /* left: 43%; */
+  /* bottom: 7%; */
+  right: 7%;
+  top: 9%;
   position: absolute;
   align-self: center;
+  opacity: 0.5;
+}
+
+.cv a:hover {
+  opacity: 1;
 }
 
 .pdf {

@@ -32,8 +32,8 @@ const Elemento = ({ elemento, tipo }) => {
             <div className="elemento-tech">
                 <h1>{elemento.nome}</h1>
                 <div className="row no-gutters">
-                    <div className="col-md-3">
-                        <a href={elemento.github} target="_blank"><img src={github} alt="" /></a>
+                    <div className="col-md-3" >
+                        <a href={elemento.github} target="_blank"><img src={github} alt="" title="Guarda su GitHub" /></a>
                     </div>
                     <div className="col-md-9">
                         <h3>{elemento.descrizione}</h3>

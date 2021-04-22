@@ -2,6 +2,7 @@ import { useHistory } from "react-router";
 import ChiSono from "../contenuti/ChiSono";
 import Contattami from "../contenuti/Contattami"
 import CV from "../contenuti/CV";
+import Liste from "../contenuti/Liste";
 
 const Contenuto = ({ mostra }) => {
 
@@ -14,9 +15,9 @@ const Contenuto = ({ mostra }) => {
             case 'contattami':
                 return <Contattami />;
             case 'tecnologie':
-                return <h1>{mostra}</h1>
+                return <Liste tipo='tecnologie' />
             case 'progetti':
-                return <h1>{mostra}</h1>
+                return <Liste tipo='progetti' />
             case 'ritratti':
                 return <h1>{mostra}</h1>
             case 'travel':

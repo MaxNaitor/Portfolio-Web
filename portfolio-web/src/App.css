@@ -284,6 +284,42 @@ canvas {
   color: teal;
 }
 
+/* ------------------------- ELEMENTO ----------------------------- */
+
+.lista {
+  overflow-y: scroll;
+  height: 73.5vh;
+}
+
+.elemento-tech {
+  padding: 3vh;
+  height: 24.5vh;
+}
+
+.elemento-tech img {
+height: 12vh;
+width: 7vw;
+}
+
+.elemento-tech h1 {
+  font-family: tech;
+  font-size: 3vh;
+}
+
+.elemento-tech h3 {
+  text-align: left;
+  font-family: tech;
+  font-size: 3vh;
+}
+
+.elemento-tech > .row {
+  height: 10vh;
+}
+
+.elemento-tech > .row > .col-md-3 {
+  height: 17vh;
+}
+
 /* ------------------------- FONTS -------------------------------- */
 
 @font-face {

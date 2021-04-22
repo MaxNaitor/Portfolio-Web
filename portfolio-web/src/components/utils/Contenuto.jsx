@@ -23,7 +23,7 @@ const Contenuto = ({ mostra }) => {
             case 'travel':
                 return <h1>{mostra}</h1>
             case 'attrezzatura':
-                return <h1>{mostra}</h1>
+                return <Liste tipo='attrezzatura' />
             case 'cv':
                 return <CV />
             default: return <ChiSono tipo={history.location.pathname} />

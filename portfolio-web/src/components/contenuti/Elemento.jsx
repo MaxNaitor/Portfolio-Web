@@ -8,6 +8,8 @@ const Elemento = ({ elemento, tipo }) => {
             return renderTecnologie()
         } else if (tipo === 'progetti') {
             return renderProgetti()
+        } else if (tipo === 'attrezzatura') {
+            return renderAttrezzatura()
         }
     }
 
@@ -40,6 +42,22 @@ const Elemento = ({ elemento, tipo }) => {
                     </div>
                 </div>
             </div>
+        )
+    }
+
+    const renderAttrezzatura = () => {
+        return (
+        <div className="elemento-ph">
+            {/* <h1>{elemento.nome}</h1> */}
+            <div className="row no-gutters">
+                <div className="col-md-3" >
+                    <img src={elemento.immagine} alt="" title="Guarda su GitHub" />
+                </div>
+                <div className="col-md-9">
+                    <h1>{elemento.nome}</h1>
+                </div>
+            </div>
+        </div>
         )
     }
 

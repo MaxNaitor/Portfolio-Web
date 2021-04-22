@@ -69,12 +69,11 @@
  height: 85vh;
  width: 100%;
  position: fixed;
- /* margin-top: 4%; */
 }
 
 .schedahome {
   margin-left: 4%;
-  margin-top: 6%;
+  margin-top: 3.5vh;
   background-color: teal;
   height: 78.5vh;
 }
@@ -311,6 +310,7 @@ width: 7vw;
 .elemento-tech h1 {
   font-family: tech;
   font-size: 3vh;
+  color: teal;
 }
 
 .elemento-tech h3 {
@@ -326,6 +326,23 @@ width: 7vw;
 .elemento-tech > .row > .col-md-3 {
   height: 17vh;
 }
+
+.elemento-ph {
+  padding: 3vh;
+  height: 24.5vh;
+}
+
+.elemento-ph h1 {
+  font-family: standard;
+  font-size: 3vh;
+  color: teal;
+  text-align: left;
+}
+
+.elemento-ph img {
+  height: 12vh;
+  width: 15vh;
+  }
 
 /* ------------------------- FONTS -------------------------------- */
 

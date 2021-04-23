@@ -1,8 +1,11 @@
 import { useHistory } from "react-router";
+import Attrezzatura from "../contenuti/Attrezzatura";
 import ChiSono from "../contenuti/ChiSono";
 import Contattami from "../contenuti/Contattami"
 import CV from "../contenuti/CV";
 import Liste from "../contenuti/Liste";
+import Ritratti from "../contenuti/Ritratti";
+import ScrollFoto from "../contenuti/ScrollFoto"
 
 const Contenuto = ({ mostra }) => {
 
@@ -19,11 +22,11 @@ const Contenuto = ({ mostra }) => {
             case 'progetti':
                 return <Liste tipo='progetti' />
             case 'ritratti':
-                return <h1>{mostra}</h1>
+                return <ScrollFoto genere='ritratti'/>
             case 'travel':
-                return <h1>{mostra}</h1>
+                return <ScrollFoto genere='travel'/>
             case 'attrezzatura':
-                return <Liste tipo='attrezzatura' />
+                return <Attrezzatura />
             case 'cv':
                 return <CV />
             default: return <ChiSono tipo={history.location.pathname} />

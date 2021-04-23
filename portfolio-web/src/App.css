@@ -293,7 +293,7 @@ canvas {
 /* ------------------------- ELEMENTO ----------------------------- */
 
 .lista {
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 73.5vh;
 }
 
@@ -336,12 +336,11 @@ width: 7vw;
   font-family: standard;
   font-size: 3vh;
   color: teal;
-  text-align: left;
 }
 
 .elemento-ph img {
   height: 12vh;
-  width: 15vh;
+  width: 14vh;
   }
 
 /* ------------------------- FONTS -------------------------------- */

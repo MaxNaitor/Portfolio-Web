@@ -48,10 +48,9 @@ const Elemento = ({ elemento, tipo }) => {
     const renderAttrezzatura = () => {
         return (
         <div className="elemento-ph">
-            {/* <h1>{elemento.nome}</h1> */}
             <div className="row no-gutters">
                 <div className="col-md-3" >
-                    <img src={elemento.immagine} alt="" title="Guarda su GitHub" />
+                    <img src={elemento.immagine} alt=""/>
                 </div>
                 <div className="col-md-9">
                     <h1>{elemento.nome}</h1>

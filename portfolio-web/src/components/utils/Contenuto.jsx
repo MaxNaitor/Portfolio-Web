@@ -4,7 +4,6 @@ import ChiSono from "../contenuti/ChiSono";
 import Contattami from "../contenuti/Contattami"
 import CV from "../contenuti/CV";
 import Liste from "../contenuti/Liste";
-import Ritratti from "../contenuti/Ritratti";
 import ScrollFoto from "../contenuti/ScrollFoto"
 
 const Contenuto = ({ mostra }) => {

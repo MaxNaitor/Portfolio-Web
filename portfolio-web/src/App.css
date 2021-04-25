@@ -360,6 +360,18 @@ width: 7vw;
   src: url(./fonts//DanielleHarrisDemoRegular-BWpK5.otf);
 }
 
+::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange;
+}
+
 a:hover {
   color: white;
 } 

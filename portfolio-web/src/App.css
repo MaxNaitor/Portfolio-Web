@@ -200,8 +200,9 @@ margin-top: 5%;
 /* ------------------------- LAYOUT ------------------------------- */
 
 .fotoprofilo {
-  height: 25vh;
+  height: 20vh;
   margin-top: 5%;
+  margin-bottom: -5%;
 }
 
 .form-control {
@@ -246,8 +247,6 @@ height: 73.5vh;
   font-family: standard;
   font-size: 4vh;
   padding: 1%;
-  /* left: 43%; */
-  /* bottom: 7%; */
   right: 7%;
   top: 9%;
   position: absolute;
@@ -379,5 +378,13 @@ a:hover {
 .scroll-foto {
   height: 73.5vh;
   overflow-y: auto;
+}
+
+.etichetta-foto {
+  background-color: white;
+  color: teal;
+  padding: 5%;
+  font-family: fotografia;
+  font-size: 3vh;
 }
 

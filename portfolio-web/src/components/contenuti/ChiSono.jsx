@@ -61,8 +61,8 @@ const ChiSono = ({ tipo }) => {
                 </h1>
                 </div>
                 <div className="paragrafo">
-                    <h1>Sperimentando vari generi,ho scoperto la mia preferenza per due di questi in particolare:</h1>
-                    <h1>La <b>Travel Photography</b> e la <b>Portrait Photograhy</b>.</h1>
+                    <h1>Sperimentando vari generi,ho scoperto la mia preferenza per tre di questi in particolare:</h1>
+                    <h1>La <b>Travel Photography</b>,la <b>Portrait Photograhy</b> e la <b>Live Photograhy</b>.</h1>
                 </div>
                 <div className="paragrafo">
                     <h1>Col passare del tempo,sto sviluppando un mio stile,concentrato sulla <b>simmetria</b>,lo <b>spazio negativo</b></h1>

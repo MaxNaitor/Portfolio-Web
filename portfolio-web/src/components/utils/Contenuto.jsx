@@ -21,9 +21,11 @@ const Contenuto = ({ mostra }) => {
             case 'progetti':
                 return <Liste tipo='progetti' />
             case 'ritratti':
-                return <ScrollFoto genere='ritratti'/>
+                return <ScrollFoto genere='ritratti' />
             case 'travel':
-                return <ScrollFoto genere='travel'/>
+                return <ScrollFoto genere='travel' />
+            case 'live':
+                return <ScrollFoto genere='live' />
             case 'attrezzatura':
                 return <Attrezzatura />
             case 'cv':

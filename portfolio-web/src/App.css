@@ -342,6 +342,22 @@ width: 7vw;
   width: 14vh;
   }
 
+/* ------------------------- SCROLL FOTO ------------------------- */
+
+
+.scroll-foto {
+  height: 73.5vh;
+  overflow-y: auto;
+}
+
+.etichetta-foto {
+  background-color: white;
+  color: teal;
+  padding: 5%;
+  font-family: fotografia;
+  font-size: 3vh;
+}
+
 /* ------------------------- FONTS -------------------------------- */
 
 @font-face {
@@ -375,16 +391,4 @@ a:hover {
   color: white;
 } 
 
-.scroll-foto {
-  height: 73.5vh;
-  overflow-y: auto;
-}
-
-.etichetta-foto {
-  background-color: white;
-  color: teal;
-  padding: 5%;
-  font-family: fotografia;
-  font-size: 3vh;
-}
 

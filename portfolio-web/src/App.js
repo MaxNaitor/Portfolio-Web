@@ -26,7 +26,7 @@ export const firestore = firebase.firestore();
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={window.location.pathname || ''}>
         <Header />
         <Switch>
           <Route path="/" exact component={Homepage} />

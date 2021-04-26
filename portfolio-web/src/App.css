@@ -38,6 +38,9 @@
   font-family: standard;
   font-size: 5vh;
 }
+.header h5:hover {
+  cursor: pointer;
+}
 
 .header > .row {
   background-color: teal ;

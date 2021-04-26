@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { useHistory } from "react-router-dom"
+=======
+import { Link, useHistory } from "react-router-dom"
+>>>>>>> 286e2aeac715cac6c0ee3982790ee90d885595de
 
 const Header = () => {
 

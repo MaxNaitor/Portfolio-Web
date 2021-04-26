@@ -1,4 +1,4 @@
-import {useHistory} from "react-router-dom"
+import { Link, useHistory } from "react-router-dom"
 
 const Header = () => {
 
@@ -8,13 +8,13 @@ const Header = () => {
         <div className="header">
             <div className="row">
                 <div className="col-md-3">
-                   <a href="/development"> <h5>Web Development</h5> </a>
+                    <Link to="/development"> <h5>Web Development</h5> </Link>
                 </div>
                 <div className="col-md-6" onClick={() => history.push("/homepage")}>
                     <h1>Tiziano Massa</h1>
                 </div>
                 <div className="col-md-3">
-                   <a href="/photography"><h5>Fotografia</h5> </a> 
+                    <Link to="/photography">Fotografia</Link>
                 </div>
 
             </div>
